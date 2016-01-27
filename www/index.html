@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <div id="progress_bar" class="progress no-margin purple lighten-4">
+        <div class="indeterminate purple"></div>
+    </div>
     
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -394,6 +396,18 @@
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+    <script type="text/javascript">
+        function show_progress_bar() {
+            $('#progress_bar').show();
+        }
+        function hide_progress_bar() {
+            $('#progress_bar').hide()
+        }
+
+        $(document).ready(function(){
+            hide_progress_bar();
+        });
+    </script>
 
     </body>
 </html>
