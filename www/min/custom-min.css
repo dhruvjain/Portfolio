@@ -44,7 +44,11 @@
   padding: 0;
   letter-spacing: 7px;
 }
-
+.row2
+{
+  border:5px solid #42a5f5;  
+   margin-top:10px; 
+}
 .text_h2 {
   font-weight: 100;
   margin-bottom: 4%;
