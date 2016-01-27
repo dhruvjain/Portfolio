@@ -49,6 +49,10 @@
   border:5px solid #42a5f5;  
    margin-top:10px; 
 }
+.row3 {
+  margin-left: 60px;
+  margin-right: auto;
+}
 .text_h2 {
   font-weight: 100;
   margin-bottom: 4%;
