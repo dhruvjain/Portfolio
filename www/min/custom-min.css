@@ -266,7 +266,9 @@ i.in {
     color: white;
   }
 }
-
+.input2 {
+    padding-bottom: 20px;
+}
 input,textarea {
   border-bottom: 1px solid #fff;
 }

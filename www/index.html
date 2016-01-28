@@ -30,7 +30,7 @@
     <nav id="nav_f" class="top-nav purple lighten-2" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo waves-effect waves-cyan">Dhruv Jain</a>
+            <a href="#top" id="logo-container" class="brand-logo waves-effect waves-cyan">Dhruv Jain</a>
                 <ul class="right hide-on-med-and-down">
                     <li ><a id="aboutme" href="#intro" class="waves-effect waves-purple">About Me</a></li>
                     <li><a href="#experience" class="waves-effect waves-purple">Experience</a></li>
@@ -104,8 +104,91 @@
     </div>
 </div>
 
+<!--Experience-->
+<div class="section_2 scrollspy " id="experience">
+    <div class="container">
+        <h2 class="center header text_b">I have interned at few places Too!! </h2>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/company1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">LOOP Dashboard <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://github.com/digitalgreenorg/loop_dashboard" target="_blank">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+            
+                        <span class="card-title grey-text text-darken-4">Digital Green <i class="mdi-navigation-close right"></i></span>
+                        <p>Worked as a 3 week intern with awesome and enthusiastic Technology Team of dg. People are very friendly here and the work culture is great! Totally enjoyed the complete duration. Learnt a lot about fundamental problems that farmers face right from cultivation to selling of the product. Dg's unique approach aims at establishing a stable and sustainable process by which the farmer won't have to be involved in marketing or selling of their produce and also gaining the best price that the market has to offer.</p>
+                        <span class="card-title grey-text text-darken-4">LOOP Dashboard<i class="mdi-navigation-close right"></i></span>
+                        <p>LOOP project that Digital Green just started in August' 15. We had to make a dashboard prototype which displays certain charts of the data relevant to LOOP like distribution of crop sold in villages, contribution of every mediator in various villages, variation in prices of crop time wise and mediator wise and so on.Technologies used:
+                        <ol>
+                            <li type="square">Django and tastypie (backend)</li>
+                            <li type="square">Materialize and Highcharts (frontend)</li>
+                        </ol>
+                        <div class="material-placeholder">
+                        <img class="materialboxed responsive-img initialized" data-caption="UI Of LOOP Dashboard home page" src="img/loop.png">
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/company_2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Smart HVAC<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a  target="_blank" id="link2">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Smart HVAC<i class="mdi-navigation-close right"></i></span>
+                        <p>The project aims to Conserve Energy by Duty HVAC at Room level using HVAC as Sensor
+                            <ol>
+                                <li type="circle">Designed and Implemented a methodology to interface with the Building Management System</li>
+                                <li type="circle">Made an Android app "Temp-Play" allowing user to change their cabin temperature leading to awareness in HVAC functioning among employees</li>
+                                <li type="circle"> Working on modelling and Machine Learning techniques to save power by detecting Occupancy using HVAC itself as a Sensor</li>
+                            </ol>
+                        </p>
+                        <a class="card-title grey-text text-darken-4" href="http://blog.internshala.com/2015/08/internship-microsoft-research-876/" target="_blank">Internship Experience</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/company3.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Video & Telemetry with UAV <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="https://github.com/dhruvjain/Summer_2014" target="_blank">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Video & Telemetry link with UAV <i class="mdi-navigation-close right"></i></span>
+                        <p>
+                            The project aims to establish video and telemetry link with UAVs over 3G/4G network
+                            <ol>
+                                <li type="circle">
+                                    Designed and Implemented a methodology for transmission of video feed and telemetry from sources to clients over network eliminating previously used Zigbee
+                                </li>
+
+                                <li type="circle">
+                                    Developed web interface for user to view video stream of all the UAVs flying and also android app for the same.
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--Work-->
-<div class="section_2 scrollspy" id="experience">
+<div class="section_2 scrollspy" id="projects">
     <div class="container">
         <h2 class="header text_b">Work </h2>
         <div class="row">
@@ -209,7 +292,7 @@
 </div>
 
 <!--Team-->
-<div class="section_2 scrollspy" id="projects">
+<div class="section_2 scrollspy" id="">
     <div class="container">
         <h2 class="header text_b"> Our Team </h2>
         <div class="row">
@@ -342,7 +425,7 @@
                             <label for="icon_prefix2" class="white-text">Message</label>
                         </div>
                         <div class="col offset-s7 s5">
-                            <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
+                            <button id="sendmssg" class="btn waves-effect waves-light red darken-1" type="submit">Submit
                                 <i class="mdi-content-send right white-text"></i>
                             </button>
                         </div>
@@ -350,32 +433,21 @@
                 </form>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">joashpereira.com</h5>
-                <ul>
-                    <li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>
-                    <li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>
-                </ul>
-            </div>
-            <div class="col l3 s12">
                 <h5 class="white-text">Social</h5>
                 <ul>
+                  
                     <li>
-                        <a class="white-text" href="https://www.behance.net/joashp">
-                            <i class="small fa fa-behance-square white-text"></i> Behance
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://www.facebook.com/joash.c.pereira">
+                        <a class="white-text" href="https://www.facebook.com/dhruv.jain.58173">
                             <i class="small fa fa-facebook-square white-text"></i> Facebook
                         </a>
                     </li>
                     <li>
-                        <a class="white-text" href="https://github.com/joashp">
+                        <a class="white-text" href="https://github.com/dhruvjain">
                             <i class="small fa fa-github-square white-text"></i> Github
                         </a>
                     </li>
                     <li>
-                        <a class="white-text" href="https://www.linkedin.com/in/joashp">
+                        <a class="white-text" href="https://in.linkedin.com/in/dhruvjaincse">
                             <i class="small fa fa-linkedin-square white-text"></i> Linkedin
                         </a>
                     </li>
@@ -385,7 +457,7 @@
     </div>
     <div class="footer-copyright default_color">
         <div class="container">
-            Made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
+           
         </div>
     </div>
 </footer>
@@ -403,7 +475,7 @@
         function hide_progress_bar() {
             $('#progress_bar').hide()
         }
-
+        $("#link2").css('visibility', 'hidden');
         $(document).ready(function(){
             console.log("ready");
             $('#msg').hide();
