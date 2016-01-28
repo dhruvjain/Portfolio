@@ -93,22 +93,21 @@
                 </h5>
                 <h2 class="flow-text"> I enjoy<span class="span_h2"> Coding, Playing Badminton, Travelling, Music, Social Work... </span></h2>
             </div>
-            <div class="row center-align ">
-                <div class="col s10 offset-s1 ">
-                    <img src="img/coding.png" alt="" class=" responsive-img row3 " >
-                
-           
+           <div class="row center-align ">
+             
+                    <img src="img/coding.png" alt="" class=" responsive-img row3  " >
+               
+            
                     <img src="img/badi.jpeg" alt="" class="responsive-img row3" >
-                
+               
                 
                     <img src="img/travel.png" alt="" class="responsive-img row3" >
-                
-           
-                    <img src="img/music.png" alt="" class=" responsive-img row3">
-               
-              
+
+                    <img src="img/music.png" alt="" class=" responsive-img row3 ">
+             
+          
                     <img src="img/social.png" alt="" class=" responsive-img row3">
-                </div>
+               
             </div>
         </div>
     </div>
@@ -425,9 +424,8 @@
         }
 
         $( "#aboutme" ).click(function() {
-            // $("div.row > h2").remove();
-            // $('#hellofolks').prepend($('<h2 id="msg" class="center header text_h2"></h2>'));
-            $('#msg').show();
+            $("div.row > h2").remove();
+            $('#hellofolks').prepend($('<h2 id="msg" class="center header text_h2"></h2>'));
             showText("#msg", "Hello, Folks!", 0, 500);
         });
     </script>
