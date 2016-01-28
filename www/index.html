@@ -425,8 +425,9 @@
         }
 
         $( "#aboutme" ).click(function() {
-            $("div.row > h2").remove();
-            $('#hellofolks').prepend($('<h2 id="msg" class="center header text_h2"></h2>'));
+            // $("div.row > h2").remove();
+            // $('#hellofolks').prepend($('<h2 id="msg" class="center header text_h2"></h2>'));
+            $('#msg').show();
             showText("#msg", "Hello, Folks!", 0, 500);
         });
     </script>
