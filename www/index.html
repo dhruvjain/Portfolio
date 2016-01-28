@@ -32,14 +32,14 @@
             <div class="nav-wrapper">
             <a href="#" id="logo-container" class="brand-logo waves-effect waves-cyan">Dhruv Jain</a>
                 <ul class="right hide-on-med-and-down">
-                    <li class="tab"><a id="aboutme" href="#intro" class="waves-effect waves-cyan">About Me</a></li>
-                    <li><a href="#experience" class="waves-effect waves-cyan">Experience</a></li>
-                    <li><a href="#projects" class="waves-effect waves-cyan">Projects</a></li>
+                    <li ><a id="aboutme" href="#intro" class="waves-effect waves-purple">About Me</a></li>
+                    <li><a href="#experience" class="waves-effect waves-purple">Experience</a></li>
+                    <li><a href="#projects" class="waves-effect waves-purple">Projects</a></li>
                     <li><a href="#academics" class="waves-effect waves-cyan">Academics</a></li>
-                    <li><a href="#interest" class="waves-effect waves-cyan">Interests</a></li>
-                    <li><a href="#blog" class="waves-effect waves-cyan">Blog</a></li>
-                    <li><a href="#resume" class="waves-effect waves-cyan">Resume</a></li>
-                    <li><a href="#contact" class="waves-effect waves-cyan" target="_blank">Contact</a></li>
+                    <li><a href="#interest" class="waves-effect waves-purple">Interests</a></li>
+                    <li><a href="#blog" class="waves-effect waves-purple">Blog</a></li>
+                    <li><a href="#resume" class="waves-effect waves-purple">Resume</a></li>
+                    <li><a href="#contact" class="waves-effect waves-purple" target="_blank">Contact</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a id="aboutme" href="#intro" class="waves-effect waves-cyan">About Me</a></li>
@@ -94,20 +94,11 @@
                 <h2 class="flow-text"> I enjoy<span class="span_h2"> Coding, Playing Badminton, Travelling, Music, Social Work... </span></h2>
             </div>
            <div class="container-fluid center-align">
-             
                     <img src="img/coding.png" alt="" class=" responsive-img row3  " >
-               
-            
                     <img src="img/badi.jpeg" alt="" class="responsive-img row3" >
-               
-                
                     <img src="img/travel.png" alt="" class="responsive-img row3" >
-
-                    <img src="img/music.png" alt="" class=" responsive-img row3 ">
-             
-          
+                    <img src="img/music.png" alt="" class=" responsive-img row3 ">  
                     <img src="img/social.png" alt="" class=" responsive-img row3">
-               
             </div>
         </div>
     </div>
@@ -404,6 +395,15 @@
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
     <script type="text/javascript">
+        $(".button-collapse").sideNav();
+        
+        $('.button-collapse').sideNav({
+          menuWidth: 300, // Default is 240
+          edge: 'right', // Choose the horizontal origin
+          closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        }
+        );
+        
         function show_progress_bar() {
             $('#progress_bar').show();
         }
