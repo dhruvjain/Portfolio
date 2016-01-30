@@ -1,5 +1,5 @@
 .default_color {
-  background-color: #2196F3 !important;
+  background-color: purple !important;
 }
 
 .default_color_text {
@@ -46,7 +46,7 @@
 }
 .row2
 {
-  border:5px solid #42a5f5;  
+  border:5px solid purple;  
    margin-top:10px; 
 }
 .row3 {
@@ -69,7 +69,7 @@
 }
 
 .text_b {
-  color: #2196F3;
+  color: purple;
 }
 
 .in {
@@ -309,9 +309,11 @@ i {
 }
 
 .parallax-container {
-  max-height: 400px;
+  max-height: 800px;
 }
-
+.parallax-container2 {
+  max-height: 3000px;
+}
 footer.page-footer {
   margin-top: 0px !important;
 }

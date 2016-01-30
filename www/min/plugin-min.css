@@ -2559,6 +2559,11 @@ img.ri:empty
   overflow: hidden;
   height: 500px;
 }
+.parallax-container2 {
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+}
 
 .parallax {
   position: absolute;
