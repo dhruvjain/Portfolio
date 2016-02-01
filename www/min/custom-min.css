@@ -14,6 +14,9 @@
 #academics{
   padding-top: 4rem;
 }
+#aboutme{
+   z-index: 1;
+}
 
 #index-banner {
   min-height: 632px;
@@ -280,6 +283,7 @@ nav a.button-collapse {
 .card-avatar .waves-effect {
   text-align: center;
   margin-top: 20px;
+   z-index: 1;
 }
 
 .card-avatar

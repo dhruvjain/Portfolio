@@ -7842,13 +7842,16 @@ button.btn-floating {
   user-select: none;
   -webkit-tap-highlight-color: transparent;
   vertical-align: middle;
-  z-index: 1;
+  
   will-change: opacity, transform;
   -webkit-transition: all .3s ease-out;
   -moz-transition: all .3s ease-out;
   -o-transition: all .3s ease-out;
   -ms-transition: all .3s ease-out;
   transition: all .3s ease-out;
+}
+.about-class{
+  z-index: 1;
 }
 
 .waves-effect .waves-ripple {

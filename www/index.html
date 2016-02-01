@@ -32,7 +32,7 @@
             <div class="nav-wrapper">
             <a href="#top" id="logo-container" class="brand-logo waves-effect waves-cyan">Dhruv Jain</a>
                 <ul class="right hide-on-med-and-down">
-                    <li ><a id="aboutme" href="#intro" class="waves-effect waves-purple">About Me</a></li>
+                    <li ><a id="aboutme" href="#intro" class="waves-effect waves-purple about-class">About Me</a></li>
                     <li><a href="#experience2" class="waves-effect waves-purple">Experience</a></li>
                     <li><a href="#projects" class="waves-effect waves-purple">Projects</a></li>
                     <li><a href="#academics" class="waves-effect waves-cyan">Academics</a></li>
@@ -42,7 +42,7 @@
                     <li><a href="#contact" class="waves-effect waves-purple" target="_blank">Contact</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
-                    <li><a id="aboutme" href="#intro" class="waves-effect waves-purple">About Me</a></li>
+                    <li><a id="aboutme" href="#intro" class="waves-effect waves-purple about-class">About Me</a></li>
                     <li><a href="#experience1" class="waves-effect waves-purple">Experience</a></li>
                     <li><a href="#projects" class="waves-effect waves-purple">Projects</a></li>
                     <li><a href="#academics" class="waves-effect waves-purple">Academics</a></li>
@@ -72,8 +72,9 @@
             <span>I Love</span> 
             <span class="cd-words-wrapper waiting">
                 <b class="is-visible">creating</b>
-                <b>designing</b>
+                <b>Research</b>
                 <b>developing</b>
+                <b>Learning</b>
             </span>
         </h1>
     </div>
@@ -115,7 +116,7 @@
 
 <!--Experience mobile-->
 
-<div class="section_2 scrollspy  hide-on-med-only hide-on-large-only" id="experience1">
+<div class="section scrollspy  hide-on-med-only hide-on-large-only" id="experience1">
     
     <div class="container ">
 
@@ -227,8 +228,8 @@
                             <li type="square">Django and tastypie (backend)</li>
                             <li type="square">Materialize and Highcharts (frontend)</li>
                         </ol>
-                        <div class="material-placeholder">
-                        <img class="materialboxed responsive-img initialized" data-caption="UI Of LOOP Dashboard home page" src="img/loop.png">
+                        <div class="zoomContainer zoomTarget ">
+                        <img class=" responsive-img initialized" data-caption="UI Of LOOP Dashboard home page" src="img/loop.png">
                         </div>
                         </p>
                     </div>
@@ -351,7 +352,7 @@
             <div class="col s12 m4 l4 offset-l2">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/infinitybooks.png">
+                        <img class="activator " src="img/infinitybooks.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Infinity Books<i class="mdi-navigation-more-vert right"></i></span>
@@ -625,7 +626,7 @@
     </div>
 </div>
 
-<div id="gap" class="parallax-container2" style="display:none">
+<div id="gap" class="section scrollspy" style="display:none">
     
 </div>
 
@@ -734,6 +735,8 @@
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="jquery.zoomooz.min.js"></script> 
     <script type="text/javascript">
 
         
@@ -757,7 +760,7 @@
             }
         }
 
-        $( "#aboutme" ).click(function() {
+        $( ".about-class" ).click(function() {
             $("div.row > h2").remove();
             $('#hellofolks').prepend($('<h2 id="msg" class="center header text_h2"></h2>'));
             showText("#msg", "Hello, Folks!", 0, 500);
