@@ -751,7 +751,7 @@
             console.log("ready");
             $('.parallax').parallax();
             $('#msg').hide();
-            hide_progress_bar();
+            
         });
         var showText = function (target, message, index, interval) {   
             if (index < message.length) {
@@ -759,6 +759,12 @@
                 setTimeout(function () { showText(target, message, index, interval); }, interval);
             }
         }
+        setTimeout(
+            function() 
+            {
+                hide_progress_bar();
+                 //do something special
+            }, 5000);
 
         $( ".about-class" ).click(function() {
             $("div.row > h2").remove();
